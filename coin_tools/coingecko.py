@@ -22,7 +22,6 @@ class CoingeckoApiTools():
         "query_name": "Solana",
         }
         In this case you should use: https://api.coingecko.com/api/v3/search?query=solana
-
         Return dict with query_name and token id from coingecko API by current coin if success else the same context
         """
         if 'query_name' in context.keys():

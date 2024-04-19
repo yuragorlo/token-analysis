@@ -28,8 +28,7 @@ class AIForecastCoinTask():
             async_execution=False,
             context=context,
             expected_output=dedent("""
-                Dicts with social media information about token including homepage url and other links
-                
+                Dicts with social media information about token including homepage url and other links.           
                 Example output:
                 {
                    "query_name":"Solana",
@@ -68,8 +67,7 @@ class AIForecastCoinTask():
             async_execution=False,
             context=context,
             expected_output=dedent("""
-                Dict with token id, social media information about token and homepage text content of token.
-                 
+                Dict with token id, social media information about token and homepage text content of token.   
                 Example output:
                 {
                    "query_name":"Solana",
